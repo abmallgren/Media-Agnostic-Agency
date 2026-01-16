@@ -7,7 +7,9 @@ on:
       - master
 
 jobs:
-  build:
+  ftp-deploy:
+    name: Build and Deploy via FTP
+    environment: production
     runs-on: ubuntu-latest
 
     defaults:
@@ -32,12 +34,6 @@ jobs:
       - name: Build React app
         working-directory: web
         run: npm run build
-
-  ftp-deploy:
-    name: Deploy via FTP
-    environment: production
-    runs-on: ubuntu-latest
-    steps:
 
       - name: FTP Deploy
         uses: SamKirkland/FTP-Deploy-Action@v4.3.6
