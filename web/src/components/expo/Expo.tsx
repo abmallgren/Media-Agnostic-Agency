@@ -4,11 +4,6 @@ import ProjectForm from '../shared/project/ProjectForm';
 import ContactForm from './ContactForm';
 import type { Project } from '../../types/Project';
 
-interface ProjectsResponse {
-    projects: Project[] | null | undefined;
-    totalCount: number;
-}
-
 interface CurrentUser {
     name: string | null;
     email: string | null;
