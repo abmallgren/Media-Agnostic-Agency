@@ -212,7 +212,6 @@ function Journal() {
 
     return (
         <div className="journal-page">
-            <h1>Journal</h1>
 
             {error && <div className="journal-error">{error}</div>}
 
