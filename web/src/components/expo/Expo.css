@@ -1,0 +1,76 @@
+.expo-page {
+    padding: 1.5rem;
+}
+
+.expo-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.expo-login-message {
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.projects-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.project-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.project-description {
+    margin: 0.5rem 0;
+}
+
+.project-involvement {
+    margin: 0.5rem 0 1rem;
+}
+
+.project-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.project-upvotes {
+    font-size: 0.9rem;
+    color: #555;
+    margin-right: 0.75rem;
+}
+
+.expo-loader {
+    text-align: center;
+    margin: 1rem 0;
+    color: #666;
+}
+
+/* Reuse your existing .btn-auth base styles; add variants if needed */
+.btn-add-project {
+    /* optional: distinct color for Add Project */
+}
+
+.btn-upvote {
+    /* optional: distinct color for Upvote */
+}
+
+.btn-edit {
+    /* optional: color for Edit */
+}
+
+.btn-delete {
+    /* optional: color for Delete */
+}
+
+.btn-contact {
+    /* optional: color for Contact */
+}

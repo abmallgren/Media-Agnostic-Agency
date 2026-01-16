@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Black background -->
+  <rect width="64" height="64" fill="#000000" />
+
+  <!-- Ghost body -->
+  <path
+    d="M32 10
+       C24 10 18 16 18 24
+       L18 40
+       C18 42 19 44 21 45
+       C23 46 25 45 27 44
+       C29 43 31 43 32 43
+       C33 43 35 43 37 44
+       C39 45 41 46 43 45
+       C45 44 46 42 46 40
+       L46 24
+       C46 16 40 10 32 10 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- Left eye -->
+  <circle cx="26" cy="24" r="3" fill="#000000" />
+
+  <!-- Right eye -->
+  <circle cx="38" cy="24" r="3" fill="#000000" />
+
+  <!-- Mouth -->
+  <ellipse cx="32" cy="32" rx="4" ry="3" fill="#000000" />
+</svg>

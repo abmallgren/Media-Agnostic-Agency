@@ -1,0 +1,12 @@
+{
+    "name": "antho/web",
+    "authors": [
+        {
+            "name": "Anthony Mallgren",
+            "email": "abmallgren@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^12.5"
+    }
+}

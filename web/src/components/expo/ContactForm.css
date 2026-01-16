@@ -1,0 +1,29 @@
+.contact-form {
+    border: 1px solid #000;
+    border-radius: 4px;
+    padding: 1rem;
+    background: #000; /* black background */
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    color: #fff; /* make labels/text readable on black */
+}
+.contact-form input[type="text"],
+.contact-form textarea {
+    padding: 0.4rem 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #000; /* black border */
+    background: #fff; /* white background */
+    color: #000; /* black text */
+    font: inherit;
+    width: 100%;
+}
+.contact-form textarea {
+    min-height: 80px;
+    resize: vertical;
+}
+.contact-form-actions {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}

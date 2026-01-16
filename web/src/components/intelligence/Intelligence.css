@@ -1,0 +1,31 @@
+.intelligence-page {
+    padding: 1.5rem;
+}
+
+.intelligence-error {
+    color: #d32f2f;
+}
+
+.intelligence-metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.metric-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    background: #000;
+    min-width: 200px;
+}
+
+.metric-card h2 {
+    margin: 0 0 0.5rem;
+}
+
+.metric-value {
+    font-size: 2rem;
+    font-weight: bold;
+}

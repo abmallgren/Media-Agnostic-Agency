@@ -1,0 +1,77 @@
+.journal-page {
+    padding: 1.5rem;
+}
+
+.journal-error {
+    color: #d32f2f;
+    margin-bottom: 1rem;
+}
+
+.journal-login-message,
+.journal-no-posts {
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+.journal-form {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    background: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.journal-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.journal-form input[type="text"],
+.journal-form textarea {
+    padding: 0.4rem 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    font: inherit;
+    background: #fff;
+    color: #000;
+}
+
+.journal-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.journal-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.journal-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    background: #000;
+}
+
+.journal-meta {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.journal-body {
+    white-space: pre-wrap;
+}
+
+.journal-loader {
+    text-align: center;
+    margin: 1rem 0;
+    color: #666;
+}
