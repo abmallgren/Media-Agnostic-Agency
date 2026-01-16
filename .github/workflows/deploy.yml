@@ -8,6 +8,7 @@ on:
 jobs:
   ftp-deploy:
     name: Deploy via FTP
+    environment: production
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
