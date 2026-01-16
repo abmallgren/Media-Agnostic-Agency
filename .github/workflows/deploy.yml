@@ -26,24 +26,12 @@ jobs:
           cache-dependency-path: web/package-lock.json
 
       - name: Install dependencies
+        working-directory: web
         run: npm ci
 
       - name: Build React app
+        working-directory: web
         run: npm run build
-
-      # At this point, web/dist contains the built SPA
-
-      - name: Upload build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: web-app
-          path: |
-            web/dist
-            web/api
-            web/php
-            web/web.config
-            web/index.php
-            web/ghost.svg
 
   ftp-deploy:
     name: Deploy via FTP
@@ -59,5 +47,5 @@ jobs:
           server: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_TARGET_DIR }}/
+          server-dir: ${{ secrets.FTP_TARGET_DIR }}
           local-dir: ./
