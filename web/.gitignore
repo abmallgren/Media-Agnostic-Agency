@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Sensitive config
+php/config.php
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
