@@ -1,13 +1,9 @@
-# Enable RewriteEngine
+DirectoryIndex index.php index.html
+
 RewriteEngine On
 
-# Serve existing files/directories directly
-RewriteCond %{REQUEST_FILENAME} -f [OR]
-RewriteCond %{REQUEST_FILENAME} -d
-RewriteRule ^ - [L]
+RewriteRule ^api(/.*)?$ api/index.php [QSA,L]
 
-# API routes: /api/... -> /api/index.php
-RewriteRule ^api/.*$ api/index.php [QSA,L]
+RewriteRule ^dist/index.html - [L]
 
-# SPA routes: everything else -> /dist/index.html
-RewriteRule ^ dist/index.html [L]
+RewriteRule ^assets/(.*)$ dist/assets/$1 [L]
