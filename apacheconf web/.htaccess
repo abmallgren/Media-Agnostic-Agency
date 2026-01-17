@@ -1,0 +1,13 @@
+# Enable RewriteEngine
+RewriteEngine On
+
+# Serve existing files/directories directly
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# API routes: /api/... -> /api/index.php
+RewriteRule ^api/.*$ api/index.php [QSA,L]
+
+# SPA routes: everything else -> /dist/index.html
+RewriteRule ^ dist/index.html [L]

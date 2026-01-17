@@ -15,6 +15,9 @@ dist-ssr
 # Sensitive config
 php/config.php
 
+# IIS
+web.config
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
