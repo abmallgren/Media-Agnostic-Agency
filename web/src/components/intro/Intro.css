@@ -1,0 +1,12 @@
+textarea {
+    min-width:100%;
+    min-height:100px;
+}
+
+.button-td {
+    text-align: right;
+}
+
+.intro {
+    text-align: left;
+}

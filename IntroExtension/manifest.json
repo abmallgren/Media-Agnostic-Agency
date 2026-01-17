@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Intro Extension",
+  "version": "1.0.0",
+  "description": "Introduces the browser profile to websites participating in the program.",
+  "action": {
+    "default_icon": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [ "<all_urls>" ],
+      "js": [ "content.js" ]
+    }
+  ],
+  "permissions": []
+}

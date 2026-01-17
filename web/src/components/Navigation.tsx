@@ -64,6 +64,7 @@ function Navigation() {
                 <div className="nav-links">
                     <Link to="/">Company</Link>
                     <Link to="/expo">Expo</Link>
+                    <Link to="/intro">Intro</Link>
                     <Link to="/intelligence">Intelligence</Link>
                     <Link to="/journal">Journal</Link>
                 </div>

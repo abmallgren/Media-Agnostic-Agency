@@ -2,7 +2,10 @@ DirectoryIndex index.php index.html
 
 RewriteEngine On
 
-RewriteRule ^api(/.*)?$ api/index.php [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^api/(.*)$ api/index.php [QSA,L]
+
 
 RewriteRule ^dist/index.html - [L]
 
