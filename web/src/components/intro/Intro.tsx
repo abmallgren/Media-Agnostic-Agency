@@ -1,7 +1,7 @@
 import React from "react";
 import type { FormEvent } from 'react';
 
-import './intro.css'
+import './Intro.css'
 function Intro() {
     const [gender, setGender] = React.useState('');
     const [age, setAge] = React.useState('');
