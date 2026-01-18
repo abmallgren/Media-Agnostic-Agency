@@ -79,7 +79,7 @@ function Intro() {
             </form>
             <p>
                 If an SMB would like to participant in the program, you may download 
-                the <a href="/packages/MediaAgnosticIntro.zip">WordPress plugin</a> (currently in queue to be reviewed by WordPress),
+                the <a href="/packages/media-agnostic-intro.zip">WordPress plugin</a> (currently in queue to be reviewed by WordPress),
                 or download the <a href="/packages/media-agnostic-intro.js">JavaScript</a> (right click, "Save link as...") and add it to your website.
             </p>
         </section>
