@@ -45,7 +45,7 @@ function Intro() {
                 visits a participating SMB's website, their profile is shared with the SMB to help them better understand their audience.
             </p>
             <p>
-                If a user would like to get started, download the <a href="/assets/IntroExtension.zip">Extension</a> (currently under review by Google
+                If a user would like to get started, download the <a href="/packages/IntroExtension.zip">Extension</a> (currently under review by Google
                 for submission to the Chrome Store). Next, fill out the form below
                 to create your profile. When you visit a participating SMB's website, your profile will be shared with them.
             </p>
@@ -78,8 +78,8 @@ function Intro() {
             </form>
             <p>
                 If an SMB would like to participant in the program, you may download 
-                the <a href="/assets/MediaAgnosticIntro.zip">WordPress plugin</a> (currently in queue to be reviewed by WordPress),
-                or download the <a href="/assets/media-agnostic-intro.js">JavaScript</a> (right click, "Save link as...") and add it to your website.
+                the <a href="/packages/MediaAgnosticIntro.zip">WordPress plugin</a> (currently in queue to be reviewed by WordPress),
+                or download the <a href="/packages/media-agnostic-intro.js">JavaScript</a> (right click, "Save link as...") and add it to your website.
             </p>
         </section>
     );
