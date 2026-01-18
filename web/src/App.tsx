@@ -1,5 +1,6 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Toaster } from 'react-hot-toast';
 import Navigation from './components/Navigation';
 import Expo from './components/expo/Expo';
 import Intro from './components/intro/Intro'
@@ -27,6 +28,7 @@ function App() {
                     <Route path="/journal" element={<Journal />} />
                     <Route path="/profile" element={<Profile />} />
                 </Routes>
+                <Toaster position="bottom-right" />
             </main>
             {/* Fixed branding in bottom left */}
             <div className="branding-fixed">

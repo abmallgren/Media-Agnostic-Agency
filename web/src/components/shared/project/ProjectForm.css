@@ -27,17 +27,6 @@
     color: #fff;
 }
 
-/* Inputs and textareas: white with black border */
-.project-form input[type="text"],
-.project-form textarea {
-    padding: 0.4rem 0.5rem;
-    border-radius: 3px;
-    border: 1px solid #000; /* black border */
-    background: #fff;        /* white background */
-    color: #000;             /* black text */
-    font: inherit;
-}
-
 .project-form textarea {
     min-height: 80px;
     resize: vertical;

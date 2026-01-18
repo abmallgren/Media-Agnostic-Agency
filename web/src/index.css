@@ -52,6 +52,15 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+input, textarea {
+    padding: 0.4rem 0.5rem;
+    border-radius: 3px;
+    border: 1px solid #000;
+    background: #fff;
+    color: #000;
+    font: inherit;
+}
+
 /* Fixed branding in bottom left */
 .branding-fixed {
   position: fixed;
