@@ -2,11 +2,20 @@ DirectoryIndex index.php index.html
 
 RewriteEngine On
 
+# 1. API routes: /api/... -> api/index.php
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^api/(.*)$ api/index.php [QSA,L]
 
-
-RewriteRule ^dist/index.html - [L]
-
+# 2. Static assets: /assets/... -> dist/assets/...
 RewriteRule ^assets/(.*)$ dist/assets/$1 [L]
+
+# 3. If the request is for a real file or directory, serve it
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# 4. SPA fallback: everything else -> dist/index.html
+RewriteRule ^ dist/index.html [L]
+
+
