@@ -35,7 +35,8 @@ function Intro() {
                 setInterests(profile.interests);
             }
         });
-    }, [])
+        window.postMessage({ type: 'Media_Agnostic_Introduction' }, '*');
+    }, []);
 
     return (
         <section className="intro">
