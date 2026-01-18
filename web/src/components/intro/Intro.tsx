@@ -47,7 +47,7 @@ function Intro() {
             </p>
             <p>
                 If a user would like to get started, download the <a href="/packages/IntroExtension.zip">Extension</a> (currently under review by Google
-                for submission to the Chrome Store). Next, fill out the form below
+                for submission to the Chrome Store). There is a <a href="https://youtu.be/GvKlcpmb8ME">video walkthrough</a>. Next, fill out the form below
                 to create your profile. When you visit a participating SMB's website, your profile will be shared with them.
             </p>
             <form onSubmit={handleSubmit}>
@@ -79,8 +79,10 @@ function Intro() {
             </form>
             <p>
                 If an SMB would like to participant in the program, you may download 
-                the <a href="/packages/media-agnostic-intro.zip">WordPress plugin</a> (currently in queue to be reviewed by WordPress),
-                or download the <a href="/packages/media-agnostic-intro.js">JavaScript</a> (right click, "Save link as...") and add it to your website.
+                the <a href="/packages/media-agnostic-intro.zip">WordPress plugin</a> (currently in queue to be reviewed by WordPress).
+                There is a <a href="https://youtu.be/1uq9XDqZly4">video walkthrough</a>. A hosted solution is in the works.
+                If you'd like to self-host a custom solution, I've also posted the <a href="/packages/media-agnostic-intro.js">JavaScript file</a> that
+                is used in WordPress to demonstrate how the web server/client interface script works.
             </p>
         </section>
     );
